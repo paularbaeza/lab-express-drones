@@ -1,8 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body {
   padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font: 14px 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
+}
+nav{
+  background-color: grey;
+  padding:5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav a{
+  font-weight: 300;
+}
+
+#drone-info{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#each-drone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:20px;
+  background-color: rgb(188, 161, 161, 0.5);
+  padding:10px;
+}
+
+.update-btn{
+background-color: #E9967A;
+border-radius: 15px;
+border:none;
+  padding: 5px;
+}
+
+#delete-btn{
+  background-color: #C05858;
+  margin-top:10px;
+  border-radius: 15px;
+  border:none;
+  padding: 5px;
+}
+
+#layout{
+  background-image: url("/images/drone-flying.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#drones-list h2{
+  color: #CD5C5C ;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(188, 161, 161, 0.7)
+
+}
+
+.forms{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.form-elements{
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+#add-btn{
+  background-color:#DB7093  ;
+  border-radius: 15px;
+  border:none;
+  padding: 5px;
+
 }
